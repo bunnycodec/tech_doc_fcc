@@ -1,0 +1,44 @@
+#navbar .nav-item {
+  cursor: pointer;
+}
+
+#main-doc header {
+  font-size: 2em;
+}
+
+#main-doc article {
+  padding: 1em 0 0 2em;
+
+  code {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    border-radius: 1em;
+    margin: 1em 0 1em 1em;
+  }
+}
+
+.doc-topic {
+  height: 100vh;
+  header {
+    font-size: x-large;
+  }
+
+  ul {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .doc-topic {
+    height: 50vh;
+
+    header {
+      font-size: medium;
+    }
+
+    ul {
+      font-size: small;
+    }
+  }
+}
